@@ -94,16 +94,16 @@ const comandos = {
         voz('amigo, son las ' + strTime)
     },
 
-    "quién te creo": () => {
+    "quién te creo ": () => {
         voz("Me crearon los estudiantes de la Academia naval Fragata Guayas. Actualmente soy un prototito de asistente virtual desarrollada en visual studio code y javascritp");
     },
 
     "qué eres": () => {
-        voz("soy un asistente virtual de Fragata Guayas. Mi hogar");
+        voz("soy un asistente virtual de Fragata Guayas.Soy un prototipo de asistente diseñada por los estudiantes. Mi hogar");
     },
 
     "cuál es tu nombre": () => {
-        voz("mi nombre es fraga");
+        voz("mi nombre es fraga, pero puedes decirme gragatita de cariño");
     },
 
     "qué fecha es hoy": () => {
@@ -116,10 +116,6 @@ const comandos = {
         var date = new Date;
         var dia = ["lunes", "martes", "miercoles", "jueves", "viernes", "sabado", "domingo"]
         voz("hoy es "+ dia[date.getDay()-1]);
-    },
-
-    "qué eres": () => {
-        voz("Soy un asistente y mi nombre es fraga. Estoy para ayudarte");
     },
 
     "dónde estas": () => {
