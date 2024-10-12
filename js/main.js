@@ -270,10 +270,10 @@ const comandos = {
     },
 
     "Te presento a *nombre": nombre => {
-        voz("Hola" + nombre +", mi nombre es Gema, es un placer conocerte");
+        voz("Hola" + nombre +", mi nombre es FRAGA, es un placer conocerte");
     },
     "fraga, Te presento a *nombre": nombre => {
-        voz("Hola" + nombre +", mi nombre es Gema, es un placer conocerte");
+        voz("Hola" + nombre +", mi nombre es Fraga, es un placer conocerte");
     },
 
     // LLAMADA A LA ACCIÓN
